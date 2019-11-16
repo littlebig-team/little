@@ -1,0 +1,43 @@
+<form action="/homes/show4" method="get">
+
+<% if @apple != nil %>
+    <input type="checkbox" name="count"  />사과 한 개 먹기<br>
+<% end %>
+
+<% if @water != nil %>
+    <input type="checkbox" name="count"  />물 한 잔 마시기<br>
+<% end %>
+
+<% if @pill != nil %>
+    <input type="checkbox" name="count"  />영양제 섭취하기<br>
+<% end %>
+
+<% if @bed != nil %>
+    <input type="checkbox" name="count"  />잠자리 정리하기<br>
+<% end %>
+
+<% if @vent != nil %>
+    <input type="checkbox" name="count"  />10분 환기시키기<br>
+<% end %>
+
+<% if @shower != nil %>
+    <input type="checkbox" name="count"  />샤워하기<br>
+<% end %>
+    
+</form><br>
+
+
+<p id="result">오늘 달성한 아침 습관 개수 : <p>  
+<script>
+showChecked();
+function showChecked(){
+  document.getElementById("result").textContent = "오늘 달성한 아침 습관 개수 : " + document.querySelectorAll("input:checked").length;
+  }
+  document.querySelectorAll("input[name=count]").forEach(i=>{
+  i.onclick = function(){
+  showChecked();
+  }
+ });
+</script>
+
+오늘의 아침 습관 ~개 중 ~개를 달성하셨습니다!

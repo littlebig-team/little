@@ -1,0 +1,2615 @@
+Started GET "/" for 183.98.199.55 at 2019-11-16 02:24:29 +0000
+Cannot render console from 183.98.199.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.3) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.3) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 183.98.199.55 at 2019-11-16 02:24:32 +0000
+Cannot render console from 183.98.199.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.3) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.3) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ bin/rails:9
+  [1m[35m (16.7ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ bin/rails:9
+  [1m[35m (19.4ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateHomes (20191107075411)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE TABLE "homes" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "adje" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20191107075411_create_homes.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20191107075411"]]
+  ↳ bin/rails:9
+  [1m[35m (14.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Create (0.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-11-16 02:24:44.600033"], ["updated_at", "2019-11-16 02:24:44.600033"]]
+  ↳ bin/rails:9
+  [1m[35m (12.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Started GET "/" for 183.98.199.55 at 2019-11-16 02:24:48 +0000
+Cannot render console from 183.98.199.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 799ms (Views: 793.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes/show" for 183.98.199.55 at 2019-11-16 02:25:12 +0000
+Cannot render console from 183.98.199.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show as HTML
+  Rendering homes/show.html.erb within layouts/application
+  Rendered homes/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes/show2?apple=on" for 183.98.199.55 at 2019-11-16 02:25:21 +0000
+Cannot render console from 183.98.199.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"apple"=>"on"}
+  Rendering homes/show2.html.erb within layouts/application
+  Rendered homes/show2.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 15ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes/show2?banana=on" for 183.98.199.55 at 2019-11-16 02:25:25 +0000
+Cannot render console from 183.98.199.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"banana"=>"on"}
+  Rendering homes/show2.html.erb within layouts/application
+  Rendered homes/show2.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes/show2?apple=on&banana=on" for 183.98.199.55 at 2019-11-16 02:25:28 +0000
+Cannot render console from 183.98.199.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"apple"=>"on", "banana"=>"on"}
+  Rendering homes/show2.html.erb within layouts/application
+  Rendered homes/show2.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 183.98.199.55 at 2019-11-16 02:32:07 +0000
+Cannot render console from 183.98.199.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 20ms (Views: 19.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes/show2?healthy=on" for 183.98.199.55 at 2019-11-16 02:32:09 +0000
+Cannot render console from 183.98.199.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on"}
+  Rendering homes/show2.html.erb within layouts/application
+  Rendered homes/show2.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes/show2?clean=on" for 183.98.199.55 at 2019-11-16 02:32:14 +0000
+Cannot render console from 183.98.199.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"clean"=>"on"}
+  Rendering homes/show2.html.erb within layouts/application
+  Rendered homes/show2.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes/show2?healthy=on" for 183.98.199.55 at 2019-11-16 02:37:07 +0000
+Cannot render console from 183.98.199.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on"}
+  Rendering homes/show2.html.erb within layouts/application
+  Rendered homes/show2.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes/show2?healthy=on" for 183.98.199.55 at 2019-11-16 02:37:37 +0000
+Cannot render console from 183.98.199.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on"}
+  Rendering homes/show2.html.erb within layouts/application
+  Rendered homes/show2.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes/show2?healthy=on&clean=on" for 183.98.199.55 at 2019-11-16 02:38:58 +0000
+Cannot render console from 183.98.199.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on", "clean"=>"on"}
+  Rendering homes/show2.html.erb within layouts/application
+  Rendered homes/show2.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes/show2?healthy=on&clean=on" for 183.98.199.55 at 2019-11-16 02:39:21 +0000
+Cannot render console from 183.98.199.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on", "clean"=>"on"}
+  Rendering homes/show2.html.erb within layouts/application
+  Rendered homes/show2.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes/show2?healthy=on" for 183.98.199.55 at 2019-11-16 02:39:27 +0000
+Cannot render console from 183.98.199.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on"}
+  Rendering homes/show2.html.erb within layouts/application
+  Rendered homes/show2.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes/show2?clean=on" for 183.98.199.55 at 2019-11-16 02:39:31 +0000
+Cannot render console from 183.98.199.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"clean"=>"on"}
+  Rendering homes/show2.html.erb within layouts/application
+  Rendered homes/show2.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes/show2?healthy=on&clean=on" for 183.98.199.55 at 2019-11-16 02:39:34 +0000
+Cannot render console from 183.98.199.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on", "clean"=>"on"}
+  Rendering homes/show2.html.erb within layouts/application
+  Rendered homes/show2.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes/show3?apple=on" for 183.98.199.55 at 2019-11-16 02:40:46 +0000
+Cannot render console from 183.98.199.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show3 as HTML
+  Parameters: {"apple"=>"on"}
+  Rendering homes/show3.html.erb within layouts/application
+  Rendered homes/show3.html.erb within layouts/application (182.4ms)
+Completed 500 Internal Server Error in 186ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `data' for #<#<Class:0x00007f7b10347410>:0x00007f7b10345b10>
+Did you mean?  @data):
+    1: <%= data %>
+  
+app/views/homes/show3.html.erb:1:in `_app_views_homes_show__html_erb___2692206714335205178_70083264789940'
+Started GET "/homes/show3?apple=on" for 183.98.199.55 at 2019-11-16 02:41:02 +0000
+Cannot render console from 183.98.199.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show3 as HTML
+  Parameters: {"apple"=>"on"}
+  Rendering homes/show3.html.erb within layouts/application
+  Rendered homes/show3.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes/show3?apple=on" for 183.98.199.55 at 2019-11-16 02:50:06 +0000
+Cannot render console from 183.98.199.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show3 as HTML
+  Parameters: {"apple"=>"on"}
+  Rendering homes/show3.html.erb within layouts/application
+  Rendered homes/show3.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes/show2?healthy=on&clean=on" for 183.98.199.55 at 2019-11-16 02:50:16 +0000
+Cannot render console from 183.98.199.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on", "clean"=>"on"}
+  Rendering homes/show2.html.erb within layouts/application
+  Rendered homes/show2.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes/show3?apple=on&water=on&pill=on&bed=on&vent=on&shower=on" for 183.98.199.55 at 2019-11-16 02:50:28 +0000
+Cannot render console from 183.98.199.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show3 as HTML
+  Parameters: {"apple"=>"on", "water"=>"on", "pill"=>"on", "bed"=>"on", "vent"=>"on", "shower"=>"on"}
+  Rendering homes/show3.html.erb within layouts/application
+  Rendered homes/show3.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 22ms (Views: 20.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes/show3?apple=on&water=on&pill=on" for 183.98.199.55 at 2019-11-16 02:52:51 +0000
+Cannot render console from 183.98.199.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show3 as HTML
+  Parameters: {"apple"=>"on", "water"=>"on", "pill"=>"on"}
+  Rendering homes/show3.html.erb within layouts/application
+  Rendered homes/show3.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes/show4?count=on&count=on&count=on" for 183.98.199.55 at 2019-11-16 02:56:15 +0000
+Cannot render console from 183.98.199.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show4 as HTML
+  Parameters: {"count"=>"on"}
+  Rendering homes/show4.html.erb within layouts/application
+  Rendered homes/show4.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes/show4?count=on&count=on&count=on" for 183.98.199.55 at 2019-11-16 02:58:09 +0000
+Cannot render console from 183.98.199.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show4 as HTML
+  Parameters: {"count"=>"on"}
+  Rendering homes/show4.html.erb within layouts/application
+  Rendered homes/show4.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes/show2?healthy=on&clean=on" for 183.98.199.55 at 2019-11-16 02:58:18 +0000
+Cannot render console from 183.98.199.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on", "clean"=>"on"}
+  Rendering homes/show2.html.erb within layouts/application
+  Rendered homes/show2.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes/show3?apple=on&water=on&pill=on&bed=on&vent=on&shower=on" for 183.98.199.55 at 2019-11-16 02:58:23 +0000
+Cannot render console from 183.98.199.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show3 as HTML
+  Parameters: {"apple"=>"on", "water"=>"on", "pill"=>"on", "bed"=>"on", "vent"=>"on", "shower"=>"on"}
+  Rendering homes/show3.html.erb within layouts/application
+  Rendered homes/show3.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes/show4?count1=on&count2=on&count3=on&count4=on&count5=on&count6=on" for 183.98.199.55 at 2019-11-16 02:58:27 +0000
+Cannot render console from 183.98.199.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show4 as HTML
+  Parameters: {"count1"=>"on", "count2"=>"on", "count3"=>"on", "count4"=>"on", "count5"=>"on", "count6"=>"on"}
+  Rendering homes/show4.html.erb within layouts/application
+  Rendered homes/show4.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes/show2?healthy=on&clean=on" for 183.98.199.55 at 2019-11-16 03:10:01 +0000
+Cannot render console from 183.98.199.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on", "clean"=>"on"}
+  Rendering homes/show2.html.erb within layouts/application
+  Rendered homes/show2.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 23ms (Views: 22.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes/show3?apple=on&water=on&pill=on" for 183.98.199.55 at 2019-11-16 03:10:04 +0000
+Cannot render console from 183.98.199.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show3 as HTML
+  Parameters: {"apple"=>"on", "water"=>"on", "pill"=>"on"}
+  Rendering homes/show3.html.erb within layouts/application
+  Rendered homes/show3.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 21ms (Views: 20.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes/show3?apple=on&water=on&pill=on" for 183.98.199.55 at 2019-11-16 03:10:50 +0000
+Cannot render console from 183.98.199.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show3 as HTML
+  Parameters: {"apple"=>"on", "water"=>"on", "pill"=>"on"}
+  Rendering homes/show3.html.erb within layouts/application
+  Rendered homes/show3.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 31ms (Views: 28.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes/show3?apple=on&water=on&pill=on" for 183.98.199.55 at 2019-11-16 03:10:57 +0000
+Cannot render console from 183.98.199.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show3 as HTML
+  Parameters: {"apple"=>"on", "water"=>"on", "pill"=>"on"}
+  Rendering homes/show3.html.erb within layouts/application
+  Rendered homes/show3.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 25ms (Views: 24.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes/show3?apple=on&water=on&pill=on" for 183.98.199.55 at 2019-11-16 03:11:05 +0000
+Cannot render console from 183.98.199.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show3 as HTML
+  Parameters: {"apple"=>"on", "water"=>"on", "pill"=>"on"}
+  Rendering homes/show3.html.erb within layouts/application
+  Rendered homes/show3.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes/show3?apple=on&water=on&pill=on" for 183.98.199.55 at 2019-11-16 03:11:58 +0000
+Cannot render console from 183.98.199.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show3 as HTML
+  Parameters: {"apple"=>"on", "water"=>"on", "pill"=>"on"}
+  Rendering homes/show3.html.erb within layouts/application
+  Rendered homes/show3.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 16ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes/show2?healthy=on" for 183.98.199.55 at 2019-11-16 03:12:12 +0000
+Cannot render console from 183.98.199.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on"}
+  Rendering homes/show2.html.erb within layouts/application
+  Rendered homes/show2.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 34ms (Views: 33.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes/show3?apple=on&water=on" for 183.98.199.55 at 2019-11-16 03:12:21 +0000
+Cannot render console from 183.98.199.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show3 as HTML
+  Parameters: {"apple"=>"on", "water"=>"on"}
+  Rendering homes/show3.html.erb within layouts/application
+  Rendered homes/show3.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 121.134.206.100 at 2019-11-16 07:14:14 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 263ms (Views: 257.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 121.134.206.100 at 2019-11-16 07:14:16 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes/show2?healthy=on&clean=on" for 121.134.206.100 at 2019-11-16 07:14:23 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on", "clean"=>"on"}
+  Rendering homes/show2.html.erb within layouts/application
+  Rendered homes/show2.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 13ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes/show3?apple=on&pill=on&vent=on&shower=on" for 121.134.206.100 at 2019-11-16 07:14:28 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show3 as HTML
+  Parameters: {"apple"=>"on", "pill"=>"on", "vent"=>"on", "shower"=>"on"}
+  Rendering homes/show3.html.erb within layouts/application
+  Rendered homes/show3.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 13ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 121.134.206.100 at 2019-11-16 07:14:54 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes/show3?apple=on&pill=on&vent=on&shower=on" for 121.134.206.100 at 2019-11-16 07:18:35 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show3 as HTML
+  Parameters: {"apple"=>"on", "pill"=>"on", "vent"=>"on", "shower"=>"on"}
+  Rendering homes/show3.html.erb within layouts/application
+  Rendered homes/show3.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes/show3?apple=on&pill=on&vent=on&shower=on" for 121.134.206.100 at 2019-11-16 07:18:54 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show3 as HTML
+  Parameters: {"apple"=>"on", "pill"=>"on", "vent"=>"on", "shower"=>"on"}
+  Rendering homes/show3.html.erb within layouts/application
+  Rendered homes/show3.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes/show3?apple=on&pill=on&vent=on&shower=on" for 121.134.206.100 at 2019-11-16 07:19:49 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show3 as HTML
+  Parameters: {"apple"=>"on", "pill"=>"on", "vent"=>"on", "shower"=>"on"}
+  Rendering homes/show3.html.erb within layouts/application
+  Rendered homes/show3.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes/show2?healthy=on&clean=on" for 121.134.206.100 at 2019-11-16 07:37:04 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on", "clean"=>"on"}
+  Rendering homes/show2.html.erb within layouts/application
+  Rendered homes/show2.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes/show3?apple=on&pill=on&bed=on" for 121.134.206.100 at 2019-11-16 07:37:11 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show3 as HTML
+  Parameters: {"apple"=>"on", "pill"=>"on", "bed"=>"on"}
+  Rendering homes/show3.html.erb within layouts/application
+  Rendered homes/show3.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes/show3?apple=on&pill=on&bed=on" for 121.134.206.100 at 2019-11-16 07:44:05 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show3 as HTML
+  Parameters: {"apple"=>"on", "pill"=>"on", "bed"=>"on"}
+  Rendering homes/show3.html.erb within layouts/application
+  Rendered homes/show3.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes/show3?apple=on&pill=on&bed=on" for 121.134.206.100 at 2019-11-16 07:44:22 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show3 as HTML
+  Parameters: {"apple"=>"on", "pill"=>"on", "bed"=>"on"}
+  Rendering homes/show3.html.erb within layouts/application
+  Rendered homes/show3.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes/show3?apple=on&pill=on&bed=on" for 121.134.206.100 at 2019-11-16 07:44:33 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show3 as HTML
+  Parameters: {"apple"=>"on", "pill"=>"on", "bed"=>"on"}
+  Rendering homes/show3.html.erb within layouts/application
+  Rendered homes/show3.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes/show3?apple=on&pill=on&bed=on" for 121.134.206.100 at 2019-11-16 07:45:02 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show3 as HTML
+  Parameters: {"apple"=>"on", "pill"=>"on", "bed"=>"on"}
+  Rendering homes/show3.html.erb within layouts/application
+  Rendered homes/show3.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes/show2?healthy=on&clean=on" for 121.134.206.100 at 2019-11-16 07:45:41 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on", "clean"=>"on"}
+  Rendering homes/show2.html.erb within layouts/application
+  Rendered homes/show2.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes/show3?water=on&pill=on&bed=on" for 121.134.206.100 at 2019-11-16 07:45:50 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show3 as HTML
+  Parameters: {"water"=>"on", "pill"=>"on", "bed"=>"on"}
+  Rendering homes/show3.html.erb within layouts/application
+  Rendered homes/show3.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 22ms (Views: 21.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes/show3?water=on&pill=on&bed=on&vent=on" for 121.134.206.100 at 2019-11-16 07:46:21 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show3 as HTML
+  Parameters: {"water"=>"on", "pill"=>"on", "bed"=>"on", "vent"=>"on"}
+  Rendering homes/show3.html.erb within layouts/application
+  Rendered homes/show3.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateGoals (20191116075110)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateGoals (20191116075110)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/migrate/20191116075110_create_goals.rb:3
+  [1m[35m (1.4ms)[0m  [1m[35mCREATE TABLE "goals" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "value" varchar, "check" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20191116075110_create_goals.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20191116075110"]]
+  ↳ bin/rails:9
+  [1m[35m (14.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (9.5ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (14.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "goals"[0m
+  ↳ db/schema.rb:15
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (13.4ms)[0m  [1m[35mCREATE TABLE "goals" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "value" varchar, "check" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (13.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "homes"[0m
+  ↳ db/schema.rb:23
+  [1m[35m (13.3ms)[0m  [1m[35mCREATE TABLE "homes" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "adje" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "goals"[0m
+  ↳ db/schema.rb:15
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (19.4ms)[0m  [1m[35mCREATE TABLE "goals" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "value" varchar, "check" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "homes"[0m
+  ↳ db/schema.rb:23
+  [1m[35m (18.9ms)[0m  [1m[35mCREATE TABLE "homes" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "adje" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:23
+  [1m[35m (21.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ db/schema.rb:13
+  [1m[35m (18.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20191116075110)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (13.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20191107075411);
+
+[0m
+  ↳ db/schema.rb:13
+  [1m[35m (15.6ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Create (0.6ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-11-16 07:55:57.636697"], ["updated_at", "2019-11-16 07:55:57.636697"]]
+  ↳ db/schema.rb:13
+  [1m[35m (16.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Update (0.6ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = ?, "updated_at" = ? WHERE "ar_internal_metadata"."key" = ?[0m  [["value", "test"], ["updated_at", "2019-11-16 07:55:57.655964"], ["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (12.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[36mGoal Create (0.7ms)[0m  [1m[32mINSERT INTO "goals" ("name", "value", "check", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "healthy"], ["value", "건강한"], ["check", "false"], ["created_at", "2019-11-16 07:55:57.685020"], ["updated_at", "2019-11-16 07:55:57.685020"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (12.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[36mGoal Create (0.8ms)[0m  [1m[32mINSERT INTO "goals" ("name", "value", "check", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "clean"], ["value", "깨끗한"], ["check", "false"], ["created_at", "2019-11-16 07:55:57.700486"], ["updated_at", "2019-11-16 07:55:57.700486"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (12.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[36mGoal Load (0.4ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/" for 121.134.206.100 at 2019-11-16 07:58:13 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mGoal Load (0.2ms)[0m  [1m[34mSELECT "goals".* FROM "goals"[0m
+  ↳ app/views/homes/index.html.erb:27
+  Rendered homes/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 266ms (Views: 260.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 121.134.206.100 at 2019-11-16 07:58:13 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT "goals".* FROM "goals"[0m
+  ↳ app/views/homes/index.html.erb:27
+  Rendered homes/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.1ms)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateHabits (20191116075848)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateHabits (20191116075848)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/migrate/20191116075848_create_habits.rb:3
+  [1m[35m (2.0ms)[0m  [1m[35mCREATE TABLE "habits" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "value" varchar, "check" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20191116075848_create_habits.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20191116075848"]]
+  ↳ bin/rails:9
+  [1m[35m (23.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ bin/rails:9
+  [1m[35m (14.6ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ bin/rails:9
+  [1m[35m (20.3ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateHomes (20191107075411)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE TABLE "homes" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "adje" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20191107075411_create_homes.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20191107075411"]]
+  ↳ bin/rails:9
+  [1m[35m (14.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+Migrating to CreateGoals (20191116075110)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE TABLE "goals" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "value" varchar, "check" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20191116075110_create_goals.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20191116075110"]]
+  ↳ bin/rails:9
+  [1m[35m (16.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+Migrating to CreateHabits (20191116075848)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE TABLE "habits" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "value" varchar, "check" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20191116075848_create_habits.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20191116075848"]]
+  ↳ bin/rails:9
+  [1m[35m (16.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Create (0.6ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-11-16 08:03:13.325961"], ["updated_at", "2019-11-16 08:03:13.325961"]]
+  ↳ bin/rails:9
+  [1m[35m (14.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (13.6ms)[0m  [1m[35mDROP TABLE IF EXISTS "goals"[0m
+  ↳ db/schema.rb:15
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (13.3ms)[0m  [1m[35mCREATE TABLE "goals" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "value" varchar, "check" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (13.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "habits"[0m
+  ↳ db/schema.rb:23
+  [1m[35m (13.8ms)[0m  [1m[35mCREATE TABLE "habits" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "value" varchar, "check" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:23
+  [1m[35m (13.6ms)[0m  [1m[35mDROP TABLE IF EXISTS "homes"[0m
+  ↳ db/schema.rb:31
+  [1m[35m (13.7ms)[0m  [1m[35mCREATE TABLE "homes" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "adje" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:31
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "goals"[0m
+  ↳ db/schema.rb:15
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (14.6ms)[0m  [1m[35mCREATE TABLE "goals" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "value" varchar, "check" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "habits"[0m
+  ↳ db/schema.rb:23
+  [1m[35m (19.3ms)[0m  [1m[35mCREATE TABLE "habits" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "value" varchar, "check" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:23
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "homes"[0m
+  ↳ db/schema.rb:31
+  [1m[35m (20.3ms)[0m  [1m[35mCREATE TABLE "homes" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "adje" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:31
+  [1m[35m (20.6ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ db/schema.rb:13
+  [1m[35m (17.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20191116075848)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (12.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20191116075110),
+(20191107075411);
+
+[0m
+  ↳ db/schema.rb:13
+  [1m[35m (15.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Create (4.7ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-11-16 08:03:18.392628"], ["updated_at", "2019-11-16 08:03:18.392628"]]
+  ↳ db/schema.rb:13
+  [1m[35m (13.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Update (0.6ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = ?, "updated_at" = ? WHERE "ar_internal_metadata"."key" = ?[0m  [["value", "test"], ["updated_at", "2019-11-16 08:03:18.412866"], ["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (12.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[36mGoal Create (0.7ms)[0m  [1m[32mINSERT INTO "goals" ("name", "value", "check", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "healthy"], ["value", "건강한"], ["check", "false"], ["created_at", "2019-11-16 08:03:18.445242"], ["updated_at", "2019-11-16 08:03:18.445242"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (12.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[36mGoal Create (0.8ms)[0m  [1m[32mINSERT INTO "goals" ("name", "value", "check", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "clean"], ["value", "깨끗한"], ["check", "false"], ["created_at", "2019-11-16 08:03:18.460660"], ["updated_at", "2019-11-16 08:03:18.460660"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (12.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ bin/rails:9
+  [1m[35m (15.7ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ bin/rails:9
+  [1m[35m (19.9ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateHomes (20191107075411)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE TABLE "homes" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "adje" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20191107075411_create_homes.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20191107075411"]]
+  ↳ bin/rails:9
+  [1m[35m (14.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+Migrating to CreateGoals (20191116075110)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE TABLE "goals" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "value" varchar, "check" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20191116075110_create_goals.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20191116075110"]]
+  ↳ bin/rails:9
+  [1m[35m (15.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+Migrating to CreateHabits (20191116075848)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.8ms)[0m  [1m[35mCREATE TABLE "habits" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "goal_id" integer, "name" varchar, "value" varchar, "check" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20191116075848_create_habits.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20191116075848"]]
+  ↳ bin/rails:9
+  [1m[35m (14.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Create (0.6ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-11-16 08:05:06.398691"], ["updated_at", "2019-11-16 08:05:06.398691"]]
+  ↳ bin/rails:9
+  [1m[35m (14.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (13.5ms)[0m  [1m[35mDROP TABLE IF EXISTS "goals"[0m
+  ↳ db/schema.rb:15
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (13.2ms)[0m  [1m[35mCREATE TABLE "goals" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "value" varchar, "check" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (12.9ms)[0m  [1m[35mDROP TABLE IF EXISTS "habits"[0m
+  ↳ db/schema.rb:23
+  [1m[35m (14.5ms)[0m  [1m[35mCREATE TABLE "habits" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "goal_id" integer, "name" varchar, "value" varchar, "check" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:23
+  [1m[35m (13.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "homes"[0m
+  ↳ db/schema.rb:32
+  [1m[35m (13.1ms)[0m  [1m[35mCREATE TABLE "homes" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "adje" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:32
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "goals"[0m
+  ↳ db/schema.rb:15
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (14.4ms)[0m  [1m[35mCREATE TABLE "goals" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "value" varchar, "check" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "habits"[0m
+  ↳ db/schema.rb:23
+  [1m[35m (22.0ms)[0m  [1m[35mCREATE TABLE "habits" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "goal_id" integer, "name" varchar, "value" varchar, "check" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:23
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "homes"[0m
+  ↳ db/schema.rb:32
+  [1m[35m (19.3ms)[0m  [1m[35mCREATE TABLE "homes" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "adje" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:32
+  [1m[35m (19.8ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ db/schema.rb:13
+  [1m[35m (18.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20191116075848)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (12.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20191116075110),
+(20191107075411);
+
+[0m
+  ↳ db/schema.rb:13
+  [1m[35m (16.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Create (0.7ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-11-16 08:05:49.398321"], ["updated_at", "2019-11-16 08:05:49.398321"]]
+  ↳ db/schema.rb:13
+  [1m[35m (15.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Update (0.6ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = ?, "updated_at" = ? WHERE "ar_internal_metadata"."key" = ?[0m  [["value", "test"], ["updated_at", "2019-11-16 08:05:49.418236"], ["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (12.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[36mGoal Create (0.8ms)[0m  [1m[32mINSERT INTO "goals" ("name", "value", "check", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "healthy"], ["value", "건강한"], ["check", "false"], ["created_at", "2019-11-16 08:05:49.445031"], ["updated_at", "2019-11-16 08:05:49.445031"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (13.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[36mGoal Create (0.8ms)[0m  [1m[32mINSERT INTO "goals" ("name", "value", "check", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "clean"], ["value", "깨끗한"], ["check", "false"], ["created_at", "2019-11-16 08:05:49.460746"], ["updated_at", "2019-11-16 08:05:49.460746"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (12.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[36mHabit Create (0.7ms)[0m  [1m[32mINSERT INTO "habits" ("goal_id", "name", "value", "check", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["goal_id", 1], ["name", "apple"], ["value", "사과 먹기"], ["check", "false"], ["created_at", "2019-11-16 08:05:49.483133"], ["updated_at", "2019-11-16 08:05:49.483133"]]
+  ↳ db/seeds.rb:14
+  [1m[35m (13.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[36mHabit Load (0.4ms)[0m  [1m[34mSELECT  "habits".* FROM "habits" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (18.8ms)[0m  [1m[35mDROP TABLE IF EXISTS "goals"[0m
+  ↳ db/schema.rb:15
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (15.3ms)[0m  [1m[35mCREATE TABLE "goals" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "value" varchar, "check" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (11.9ms)[0m  [1m[35mDROP TABLE IF EXISTS "habits"[0m
+  ↳ db/schema.rb:23
+  [1m[35m (13.6ms)[0m  [1m[35mCREATE TABLE "habits" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "goal_id" integer, "name" varchar, "value" varchar, "check" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:23
+  [1m[35m (12.3ms)[0m  [1m[35mDROP TABLE IF EXISTS "homes"[0m
+  ↳ db/schema.rb:32
+  [1m[35m (13.3ms)[0m  [1m[35mCREATE TABLE "homes" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "adje" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:32
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (12.7ms)[0m  [1m[35mDROP TABLE IF EXISTS "goals"[0m
+  ↳ db/schema.rb:15
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (13.1ms)[0m  [1m[35mCREATE TABLE "goals" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "value" varchar, "check" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (13.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "habits"[0m
+  ↳ db/schema.rb:23
+  [1m[35m (13.0ms)[0m  [1m[35mCREATE TABLE "habits" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "goal_id" integer, "name" varchar, "value" varchar, "check" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:23
+  [1m[35m (13.3ms)[0m  [1m[35mDROP TABLE IF EXISTS "homes"[0m
+  ↳ db/schema.rb:32
+  [1m[35m (13.3ms)[0m  [1m[35mCREATE TABLE "homes" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "adje" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:32
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Update (0.8ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = ?, "updated_at" = ? WHERE "ar_internal_metadata"."key" = ?[0m  [["value", "development"], ["updated_at", "2019-11-16 08:10:45.144487"], ["key", "environment"]]
+  ↳ db/schema.rb:13
+  [1m[35m (12.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Update (0.7ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = ?, "updated_at" = ? WHERE "ar_internal_metadata"."key" = ?[0m  [["value", "test"], ["updated_at", "2019-11-16 08:10:45.160679"], ["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (14.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[36mGoal Create (0.7ms)[0m  [1m[32mINSERT INTO "goals" ("name", "value", "check", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "healthy"], ["value", "건강한"], ["check", "false"], ["created_at", "2019-11-16 08:10:45.188572"], ["updated_at", "2019-11-16 08:10:45.188572"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (13.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[36mGoal Create (0.7ms)[0m  [1m[32mINSERT INTO "goals" ("name", "value", "check", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "clean"], ["value", "깨끗한"], ["check", "false"], ["created_at", "2019-11-16 08:10:45.204477"], ["updated_at", "2019-11-16 08:10:45.204477"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (13.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[36mHabit Create (0.7ms)[0m  [1m[32mINSERT INTO "habits" ("goal_id", "name", "value", "check", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["goal_id", 1], ["name", "apple"], ["value", "사과 먹기"], ["check", "false"], ["created_at", "2019-11-16 08:10:45.226177"], ["updated_at", "2019-11-16 08:10:45.226177"]]
+  ↳ db/seeds.rb:14
+  [1m[35m (13.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[36mHabit Create (0.8ms)[0m  [1m[32mINSERT INTO "habits" ("goal_id", "name", "value", "check", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["goal_id", 1], ["name", "apple"], ["value", "사과 먹기"], ["check", "false"], ["created_at", "2019-11-16 08:10:45.241817"], ["updated_at", "2019-11-16 08:10:45.241817"]]
+  ↳ db/seeds.rb:14
+  [1m[35m (12.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[36mHabit Create (0.6ms)[0m  [1m[32mINSERT INTO "habits" ("goal_id", "name", "value", "check", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["goal_id", 1], ["name", "apple"], ["value", "사과 먹기"], ["check", "false"], ["created_at", "2019-11-16 08:10:45.256769"], ["updated_at", "2019-11-16 08:10:45.256769"]]
+  ↳ db/seeds.rb:14
+  [1m[35m (13.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[36mHabit Create (0.6ms)[0m  [1m[32mINSERT INTO "habits" ("goal_id", "name", "value", "check", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["goal_id", 2], ["name", "apple"], ["value", "사과 먹기"], ["check", "false"], ["created_at", "2019-11-16 08:10:45.272934"], ["updated_at", "2019-11-16 08:10:45.272934"]]
+  ↳ db/seeds.rb:14
+  [1m[35m (12.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:14
+Started GET "/" for 121.134.206.100 at 2019-11-16 08:14:32 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mGoal Load (0.2ms)[0m  [1m[34mSELECT "goals".* FROM "goals"[0m
+  ↳ app/views/homes/index.html.erb:27
+  Rendered homes/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 227ms (Views: 209.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/homes/show2?healthy=on" for 121.134.206.100 at 2019-11-16 08:14:35 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on"}
+  [1m[36mGoal Load (0.2ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:23
+  [1m[36mGoal Update (0.9ms)[0m  [1m[33mUPDATE "goals" SET "check" = ?, "updated_at" = ? WHERE "goals"."id" = ?[0m  [["check", "true"], ["updated_at", "2019-11-16 08:14:35.750900"], ["id", 1]]
+  ↳ app/controllers/homes_controller.rb:23
+  [1m[35m (13.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:23
+  [1m[36mHabit Load (0.1ms)[0m  [1m[34mSELECT  "habits".* FROM "habits" WHERE "habits"."goal_id" = ? LIMIT ?[0m  [["goal_id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:24
+  Rendering homes/show2.html.erb within layouts/application
+  Rendered homes/show2.html.erb within layouts/application (5.4ms)
+Completed 500 Internal Server Error in 39ms (ActiveRecord: 15.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for #<Habit:0x00007f91700e2758>):
+    18: 
+    19: 
+    20: <form action="/homes/show3" method="get">
+    21:     <% @result.each do |r| %>
+    22: 	<input type="checkbox" name="<%= r.name %>" /><%= r.value %><br>
+    23: 	<% end %>
+    24: 	<input type="submit" value="제출하기">
+  
+app/views/homes/show2.html.erb:21:in `_app_views_homes_show__html_erb___4238209444181306987_70131313478400'
+Started GET "/homes/show2?healthy=on" for 121.134.206.100 at 2019-11-16 08:15:52 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on"}
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:23
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:23
+  [1m[36mHabit Load (0.1ms)[0m  [1m[34mSELECT  "habits".* FROM "habits" WHERE "habits"."goal_id" = ? LIMIT ?[0m  [["goal_id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:25
+  Rendering homes/show2.html.erb within layouts/application
+  Rendered homes/show2.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 34ms (Views: 14.6ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/homes/show2?healthy=on" for 121.134.206.100 at 2019-11-16 08:16:00 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on"}
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:23
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:23
+  [1m[36mHabit Load (0.1ms)[0m  [1m[34mSELECT  "habits".* FROM "habits" WHERE "habits"."goal_id" = ? LIMIT ?[0m  [["goal_id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:25
+  Rendering homes/show2.html.erb within layouts/application
+  Rendered homes/show2.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 21ms (Views: 14.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/homes/show2?healthy=on" for 121.134.206.100 at 2019-11-16 08:16:08 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on"}
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:23
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:23
+  [1m[36mHabit Load (0.1ms)[0m  [1m[34mSELECT  "habits".* FROM "habits" WHERE "habits"."goal_id" = ? LIMIT ?[0m  [["goal_id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:25
+  Rendering homes/show2.html.erb within layouts/application
+  Rendered homes/show2.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 20ms (Views: 14.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/homes/show2?healthy=on" for 121.134.206.100 at 2019-11-16 08:16:27 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on"}
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:23
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:23
+  [1m[36mHabit Load (0.1ms)[0m  [1m[34mSELECT  "habits".* FROM "habits" WHERE "habits"."goal_id" = ? LIMIT ?[0m  [["goal_id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:25
+  Rendering homes/show2.html.erb within layouts/application
+  Rendered homes/show2.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 21ms (Views: 14.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/homes/show2?healthy=on" for 121.134.206.100 at 2019-11-16 08:17:17 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on"}
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:23
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:23
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.8ms)
+
+
+  
+NoMethodError (undefined method `find_all' for #<Class:0x00007f91706a1f18>
+Did you mean?  find_each):
+  
+app/controllers/homes_controller.rb:24:in `show2'
+Started GET "/homes/show2?healthy=on" for 121.134.206.100 at 2019-11-16 08:17:25 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on"}
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:23
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:23
+  [1m[36mHabit Load (0.1ms)[0m  [1m[34mSELECT  "habits".* FROM "habits" WHERE "habits"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:24
+Completed 404 Not Found in 16ms (ActiveRecord: 1.9ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Habit with 'id'={:goal_id=>1}):
+  
+app/controllers/homes_controller.rb:24:in `show2'
+Started GET "/homes/show2?healthy=on" for 121.134.206.100 at 2019-11-16 08:17:37 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on"}
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:23
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:23
+  Rendering homes/show2.html.erb within layouts/application
+  Rendered homes/show2.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 40ms (Views: 26.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/homes/show2?healthy=on" for 121.134.206.100 at 2019-11-16 08:17:48 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on"}
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:23
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:23
+  Rendering homes/show2.html.erb within layouts/application
+  [1m[36mHabit Load (0.2ms)[0m  [1m[34mSELECT "habits".* FROM "habits" WHERE "habits"."goal_id" = ?[0m  [["goal_id", 1]]
+  ↳ app/views/homes/show2.html.erb:21
+  Rendered homes/show2.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 27ms (Views: 21.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/homes/show2?healthy=on&clean=on" for 121.134.206.100 at 2019-11-16 08:18:03 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on", "clean"=>"on"}
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:23
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:23
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "clean"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:28
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:30
+  [1m[36mGoal Update (1.0ms)[0m  [1m[33mUPDATE "goals" SET "check" = ?, "updated_at" = ? WHERE "goals"."id" = ?[0m  [["check", "true"], ["updated_at", "2019-11-16 08:18:03.338035"], ["id", 2]]
+  ↳ app/controllers/homes_controller.rb:30
+  [1m[35m (13.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:30
+  [1m[36mHabit Load (0.2ms)[0m  [1m[34mSELECT  "habits".* FROM "habits" WHERE "habits"."goal_id" = ? LIMIT ?[0m  [["goal_id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:31
+  [1m[36mHabit Load (0.1ms)[0m  [1m[34mSELECT  "habits".* FROM "habits" WHERE "habits"."goal_id" = ? LIMIT ?[0m  [["goal_id", 1], ["LIMIT", 11]]
+  ↳ /home/ubuntu/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+Completed 500 Internal Server Error in 32ms (ActiveRecord: 14.5ms)
+
+
+  
+  [1m[36mCACHE Habit Load (0.0ms)[0m  [1m[34mSELECT  "habits".* FROM "habits" WHERE "habits"."goal_id" = ? LIMIT ?[0m  [["goal_id", 1], ["LIMIT", 11]]
+  ↳ /home/ubuntu/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+NoMethodError (undefined method `[]=' for #<Habit::ActiveRecord_Relation:0x00007f9175b50a28>
+Did you mean?  []):
+  
+app/controllers/homes_controller.rb:31:in `show2'
+Started GET "/homes/show2?healthy=on&clean=on" for 121.134.206.100 at 2019-11-16 08:18:39 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on", "clean"=>"on"}
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:23
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:23
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "clean"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:28
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:30
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:30
+  [1m[36mHabit Load (0.2ms)[0m  [1m[34mSELECT  "habits".* FROM "habits" WHERE "habits"."goal_id" = ? LIMIT ?[0m  [["goal_id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:31
+  Rendering homes/show2.html.erb within layouts/application
+  Rendered homes/show2.html.erb within layouts/application (3.6ms)
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 1.6ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for #<Habit:0x00007f91706e87b0>):
+    18: 
+    19: 
+    20: <form action="/homes/show3" method="get">
+    21:     <% @result.each do |r| %>
+    22: 	<input type="checkbox" name="<%= r.name %>" /><%= r.value %><br>
+    23: 	<% end %>
+    24: 	<input type="submit" value="제출하기">
+  
+app/views/homes/show2.html.erb:21:in `_app_views_homes_show__html_erb___4238209444181306987_70131316660720'
+Started GET "/homes/show2?healthy=on" for 121.134.206.100 at 2019-11-16 08:21:02 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on"}
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:23
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:23
+  Rendering homes/show2.html.erb within layouts/application
+  [1m[36mHabit Load (0.2ms)[0m  [1m[34mSELECT "habits".* FROM "habits" WHERE "habits"."goal_id" = ?[0m  [["goal_id", 1]]
+  ↳ app/views/homes/show2.html.erb:21
+  Rendered homes/show2.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 25ms (Views: 20.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/homes/show2?healthy=on&clean=on" for 121.134.206.100 at 2019-11-16 08:21:17 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on", "clean"=>"on"}
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:23
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:23
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "clean"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:28
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:30
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:30
+  [1m[36mHabit Load (0.1ms)[0m  [1m[34mSELECT  "habits".* FROM "habits" WHERE "habits"."goal_id" = ? LIMIT ?[0m  [["goal_id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:31
+  Rendering homes/show2.html.erb within layouts/application
+  Rendered homes/show2.html.erb within layouts/application (4.9ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for #<Habit:0x00007f91702c6d80>):
+    18: 
+    19: 
+    20: <form action="/homes/show3" method="get">
+    21:     <% @result.each do |r| %>
+    22: 	<input type="checkbox" name="<%= r.name %>" /><%= r.value %><br>
+    23: 	<% end %>
+    24: 	<input type="submit" value="제출하기">
+  
+app/views/homes/show2.html.erb:21:in `_app_views_homes_show__html_erb___4238209444181306987_70131314470500'
+Started GET "/homes/show2?healthy=on&clean=on" for 121.134.206.100 at 2019-11-16 08:21:49 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on", "clean"=>"on"}
+  [1m[36mGoal Load (0.2ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:23
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:23
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "clean"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:28
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:30
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:30
+  Rendering homes/show2.html.erb within layouts/application
+  [1m[36mHabit Load (0.1ms)[0m  [1m[34mSELECT "habits".* FROM "habits" WHERE "habits"."goal_id" = ?[0m  [["goal_id", 2]]
+  ↳ app/views/homes/show2.html.erb:21
+  Rendered homes/show2.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 36ms (Views: 19.5ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/homes/show2?healthy=on&clean=on" for 121.134.206.100 at 2019-11-16 08:21:55 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on", "clean"=>"on"}
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:23
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:23
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "clean"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:28
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:30
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:30
+  Rendering homes/show2.html.erb within layouts/application
+  [1m[36mHabit Load (0.1ms)[0m  [1m[34mSELECT "habits".* FROM "habits" WHERE "habits"."goal_id" = ?[0m  [["goal_id", 2]]
+  ↳ app/views/homes/show2.html.erb:21
+  Rendered homes/show2.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 25ms (Views: 15.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/homes/show2?healthy=on&clean=on" for 121.134.206.100 at 2019-11-16 08:22:18 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on", "clean"=>"on"}
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:23
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:23
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "clean"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:28
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:30
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:30
+  [1m[36mHabit Load (0.2ms)[0m  [1m[34mSELECT  "habits".* FROM "habits" WHERE "habits"."goal_id" = ? LIMIT ?[0m  [["goal_id", 1], ["LIMIT", 11]]
+  ↳ /home/ubuntu/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 1.5ms)
+
+
+  
+  [1m[36mCACHE Habit Load (0.0ms)[0m  [1m[34mSELECT  "habits".* FROM "habits" WHERE "habits"."goal_id" = ? LIMIT ?[0m  [["goal_id", 1], ["LIMIT", 11]]
+  ↳ /home/ubuntu/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+NoMethodError (undefined method `[]=' for #<Habit::ActiveRecord_Relation:0x00007f9174cf6298>
+Did you mean?  []):
+  
+app/controllers/homes_controller.rb:31:in `show2'
+Started GET "/homes/show2?healthy=on&clean=on" for 121.134.206.100 at 2019-11-16 08:22:55 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on", "clean"=>"on"}
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:23
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:23
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "clean"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:28
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:30
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:30
+  [1m[36mHabit Load (0.1ms)[0m  [1m[34mSELECT  "habits".* FROM "habits" WHERE "habits"."goal_id" = ? LIMIT ?[0m  [["goal_id", 1], ["LIMIT", 11]]
+  ↳ /home/ubuntu/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.4ms)
+
+
+  
+  [1m[36mCACHE Habit Load (0.0ms)[0m  [1m[34mSELECT  "habits".* FROM "habits" WHERE "habits"."goal_id" = ? LIMIT ?[0m  [["goal_id", 1], ["LIMIT", 11]]
+  ↳ /home/ubuntu/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+NoMethodError (undefined method `[]=' for #<Habit::ActiveRecord_Relation:0x00007f9170256f08>
+Did you mean?  []):
+  
+app/controllers/homes_controller.rb:31:in `show2'
+Started GET "/homes/show2?healthy=on&clean=on" for 121.134.206.100 at 2019-11-16 08:23:09 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+SyntaxError (/home/ubuntu/environment/test1/app/controllers/homes_controller.rb:31: syntax error, unexpected '(', expecting end
+      @result() = Habit.where(goal_id: goal...
+             ^):
+  
+app/controllers/homes_controller.rb:31: syntax error, unexpected '(', expecting end
+Started GET "/homes/show2?healthy=on&clean=on" for 121.134.206.100 at 2019-11-16 08:25:33 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on", "clean"=>"on"}
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:23
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:23
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "clean"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:28
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:30
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:30
+  [1m[36mHabit Load (0.1ms)[0m  [1m[34mSELECT  "habits".* FROM "habits" WHERE "habits"."goal_id" = ? LIMIT ?[0m  [["goal_id", 1], ["LIMIT", 11]]
+  ↳ /home/ubuntu/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 1.2ms)
+
+
+  
+  [1m[36mCACHE Habit Load (0.0ms)[0m  [1m[34mSELECT  "habits".* FROM "habits" WHERE "habits"."goal_id" = ? LIMIT ?[0m  [["goal_id", 1], ["LIMIT", 11]]
+  ↳ /home/ubuntu/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+NoMethodError (undefined method `[]=' for #<Habit::ActiveRecord_Relation:0x00007f91705324e8>
+Did you mean?  []):
+  
+app/controllers/homes_controller.rb:31:in `show2'
+Started GET "/homes/show2?healthy=on&clean=on" for 121.134.206.100 at 2019-11-16 08:28:53 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on", "clean"=>"on"}
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:19
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "clean"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:26
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:28
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:28
+  [1m[36mHabit Load (0.2ms)[0m  [1m[34mSELECT  "habits".* FROM "habits" WHERE "habits"."goal_id" = ? LIMIT ?[0m  [["goal_id", 1], ["LIMIT", 11]]
+  ↳ /home/ubuntu/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 1.2ms)
+
+
+  
+  [1m[36mCACHE Habit Load (0.0ms)[0m  [1m[34mSELECT  "habits".* FROM "habits" WHERE "habits"."goal_id" = ? LIMIT ?[0m  [["goal_id", 1], ["LIMIT", 11]]
+  ↳ /home/ubuntu/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+NoMethodError (undefined method `[]=' for #<Habit::ActiveRecord_Relation:0x00007f917c00c688>
+Did you mean?  []):
+  
+app/controllers/homes_controller.rb:29:in `show2'
+Started GET "/homes/show2?healthy=on&clean=on" for 121.134.206.100 at 2019-11-16 08:29:52 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on", "clean"=>"on"}
+  [1m[36mGoal Load (0.4ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:19
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "clean"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:26
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:28
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:28
+  [1m[36mHabit Load (0.1ms)[0m  [1m[34mSELECT  "habits".* FROM "habits" WHERE "habits"."goal_id" = ? LIMIT ?[0m  [["goal_id", 1], ["LIMIT", 11]]
+  ↳ /home/ubuntu/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+Completed 500 Internal Server Error in 40ms (ActiveRecord: 1.7ms)
+
+
+  
+  [1m[36mCACHE Habit Load (0.0ms)[0m  [1m[34mSELECT  "habits".* FROM "habits" WHERE "habits"."goal_id" = ? LIMIT ?[0m  [["goal_id", 1], ["LIMIT", 11]]
+  ↳ /home/ubuntu/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+NoMethodError (undefined method `[]=' for #<Habit::ActiveRecord_Relation:0x00007f9174a3bc10>
+Did you mean?  []):
+  
+app/controllers/homes_controller.rb:29:in `show2'
+Started GET "/homes/show2?healthy=on" for 121.134.206.100 at 2019-11-16 08:34:04 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on"}
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:19
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  Rendering homes/show2.html.erb within layouts/application
+  [1m[36mHabit Load (0.2ms)[0m  [1m[34mSELECT "habits".* FROM "habits" WHERE "habits"."goal_id" = ?[0m  [["goal_id", 1]]
+  ↳ app/views/homes/show2.html.erb:21
+  Rendered homes/show2.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 33ms (Views: 20.2ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/homes/show2?healthy=on" for 121.134.206.100 at 2019-11-16 08:34:49 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on"}
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:19
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  Rendering homes/show2.html.erb within layouts/application
+  [1m[36mHabit Load (0.1ms)[0m  [1m[34mSELECT "habits".* FROM "habits" WHERE "habits"."goal_id" = ?[0m  [["goal_id", 1]]
+  ↳ app/views/homes/show2.html.erb:21
+  Rendered homes/show2.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 22ms (Views: 16.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/homes/show2?healthy=on&clean=on" for 121.134.206.100 at 2019-11-16 08:34:52 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on", "clean"=>"on"}
+  [1m[36mGoal Load (0.2ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:19
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "clean"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:26
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:28
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:28
+  [1m[36mHabit Load (0.2ms)[0m  [1m[34mSELECT  "habits".* FROM "habits" WHERE "habits"."goal_id" = ? LIMIT ?[0m  [["goal_id", 1], ["LIMIT", 11]]
+  ↳ /home/ubuntu/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.4ms)
+
+
+  
+  [1m[36mCACHE Habit Load (0.0ms)[0m  [1m[34mSELECT  "habits".* FROM "habits" WHERE "habits"."goal_id" = ? LIMIT ?[0m  [["goal_id", 1], ["LIMIT", 11]]
+  ↳ /home/ubuntu/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+NoMethodError (undefined method `[]=' for #<Habit::ActiveRecord_Relation:0x00007f91707f9de8>
+Did you mean?  []):
+  
+app/controllers/homes_controller.rb:29:in `show2'
+Started GET "/homes/show2?healthy=on&clean=on" for 121.134.206.100 at 2019-11-16 08:35:03 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on", "clean"=>"on"}
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:19
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "clean"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:26
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:28
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:28
+  Rendering homes/show2.html.erb within layouts/application
+  [1m[36mHabit Load (0.1ms)[0m  [1m[34mSELECT "habits".* FROM "habits" WHERE "habits"."goal_id" = ?[0m  [["goal_id", 2]]
+  ↳ app/views/homes/show2.html.erb:21
+  Rendered homes/show2.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 39ms (Views: 20.3ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/homes/show2?healthy=on&clean=on" for 121.134.206.100 at 2019-11-16 08:35:27 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on", "clean"=>"on"}
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:19
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "clean"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:26
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:28
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:28
+  Rendering homes/show2.html.erb within layouts/application
+  [1m[36mHabit Load (0.1ms)[0m  [1m[34mSELECT "habits".* FROM "habits" WHERE "habits"."goal_id" = ?[0m  [["goal_id", 2]]
+  ↳ app/views/homes/show2.html.erb:21
+  Rendered homes/show2.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 27ms (Views: 16.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/homes/show2?healthy=on" for 121.134.206.100 at 2019-11-16 08:35:30 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on"}
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:19
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  Rendering homes/show2.html.erb within layouts/application
+  [1m[36mHabit Load (0.1ms)[0m  [1m[34mSELECT "habits".* FROM "habits" WHERE "habits"."goal_id" = ?[0m  [["goal_id", 1]]
+  ↳ app/views/homes/show2.html.erb:21
+  Rendered homes/show2.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 34ms (Views: 28.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/homes/show2?clean=on" for 121.134.206.100 at 2019-11-16 08:35:35 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"clean"=>"on"}
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "clean"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:26
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:28
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:28
+  Rendering homes/show2.html.erb within layouts/application
+  [1m[36mHabit Load (0.1ms)[0m  [1m[34mSELECT "habits".* FROM "habits" WHERE "habits"."goal_id" = ?[0m  [["goal_id", 2]]
+  ↳ app/views/homes/show2.html.erb:21
+  Rendered homes/show2.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 22ms (Views: 16.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/homes/show2?healthy=on&clean=on" for 121.134.206.100 at 2019-11-16 08:35:38 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on", "clean"=>"on"}
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:19
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "clean"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:26
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:28
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:28
+  Rendering homes/show2.html.erb within layouts/application
+  [1m[36mHabit Load (0.1ms)[0m  [1m[34mSELECT "habits".* FROM "habits" WHERE "habits"."goal_id" = ?[0m  [["goal_id", 2]]
+  ↳ app/views/homes/show2.html.erb:21
+  Rendered homes/show2.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 24ms (Views: 15.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/homes/show2?healthy=on&clean=on" for 121.134.206.100 at 2019-11-16 08:36:25 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on", "clean"=>"on"}
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:19
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "clean"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:26
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:28
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:28
+  Rendering homes/show2.html.erb within layouts/application
+  [1m[36mHabit Load (0.1ms)[0m  [1m[34mSELECT "habits".* FROM "habits" WHERE "habits"."goal_id" = ?[0m  [["goal_id", 2]]
+  ↳ app/views/homes/show2.html.erb:21
+  Rendered homes/show2.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 27ms (Views: 17.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/homes/show2?healthy=on&clean=on" for 121.134.206.100 at 2019-11-16 08:38:45 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on", "clean"=>"on"}
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:19
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "clean"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:26
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:28
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:28
+  [1m[36mHabit Load (0.2ms)[0m  [1m[34mSELECT  "habits".* FROM "habits" WHERE "habits"."goal_id" = ? LIMIT ?[0m  [["goal_id", 1], ["LIMIT", 11]]
+  ↳ /home/ubuntu/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 1.3ms)
+
+
+  
+  [1m[36mCACHE Habit Load (0.0ms)[0m  [1m[34mSELECT  "habits".* FROM "habits" WHERE "habits"."goal_id" = ? LIMIT ?[0m  [["goal_id", 1], ["LIMIT", 11]]
+  ↳ /home/ubuntu/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+NoMethodError (undefined method `[]=' for #<Habit::ActiveRecord_Relation:0x00007f9170473340>
+Did you mean?  []):
+  
+app/controllers/homes_controller.rb:29:in `show2'
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (14.0ms)[0m  [1m[35mDROP TABLE IF EXISTS "goals"[0m
+  ↳ db/schema.rb:15
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (15.0ms)[0m  [1m[35mCREATE TABLE "goals" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "value" varchar, "check" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (14.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "habits"[0m
+  ↳ db/schema.rb:23
+  [1m[35m (14.6ms)[0m  [1m[35mCREATE TABLE "habits" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "goal_id" integer, "name" varchar, "value" varchar, "check" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:23
+  [1m[35m (16.7ms)[0m  [1m[35mDROP TABLE IF EXISTS "homes"[0m
+  ↳ db/schema.rb:32
+  [1m[35m (14.4ms)[0m  [1m[35mCREATE TABLE "homes" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "adje" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:32
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (17.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "goals"[0m
+  ↳ db/schema.rb:15
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (15.7ms)[0m  [1m[35mCREATE TABLE "goals" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "value" varchar, "check" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (19.0ms)[0m  [1m[35mDROP TABLE IF EXISTS "habits"[0m
+  ↳ db/schema.rb:23
+  [1m[35m (20.6ms)[0m  [1m[35mCREATE TABLE "habits" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "goal_id" integer, "name" varchar, "value" varchar, "check" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:23
+  [1m[35m (12.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "homes"[0m
+  ↳ db/schema.rb:32
+  [1m[35m (14.7ms)[0m  [1m[35mCREATE TABLE "homes" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "adje" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:32
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Update (1.3ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = ?, "updated_at" = ? WHERE "ar_internal_metadata"."key" = ?[0m  [["value", "development"], ["updated_at", "2019-11-16 08:44:44.494219"], ["key", "environment"]]
+  ↳ db/schema.rb:13
+  [1m[35m (13.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Update (1.7ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = ?, "updated_at" = ? WHERE "ar_internal_metadata"."key" = ?[0m  [["value", "test"], ["updated_at", "2019-11-16 08:44:44.511712"], ["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (13.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[36mGoal Create (1.2ms)[0m  [1m[32mINSERT INTO "goals" ("name", "value", "check", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "healthy"], ["value", "건강한"], ["check", "false"], ["created_at", "2019-11-16 08:44:44.542145"], ["updated_at", "2019-11-16 08:44:44.542145"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (13.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[36mGoal Create (1.0ms)[0m  [1m[32mINSERT INTO "goals" ("name", "value", "check", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "clean"], ["value", "깨끗한"], ["check", "false"], ["created_at", "2019-11-16 08:44:44.559468"], ["updated_at", "2019-11-16 08:44:44.559468"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (13.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[36mHabit Create (1.1ms)[0m  [1m[32mINSERT INTO "habits" ("goal_id", "name", "value", "check", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["goal_id", 1], ["name", "apple"], ["value", "사과 한 쪽 먹기"], ["check", "false"], ["created_at", "2019-11-16 08:44:44.583137"], ["updated_at", "2019-11-16 08:44:44.583137"]]
+  ↳ db/seeds.rb:14
+  [1m[35m (13.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[36mHabit Create (1.0ms)[0m  [1m[32mINSERT INTO "habits" ("goal_id", "name", "value", "check", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["goal_id", 1], ["name", "water"], ["value", "물 한 잔 마시기"], ["check", "false"], ["created_at", "2019-11-16 08:44:44.599928"], ["updated_at", "2019-11-16 08:44:44.599928"]]
+  ↳ db/seeds.rb:14
+  [1m[35m (13.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[36mHabit Create (1.0ms)[0m  [1m[32mINSERT INTO "habits" ("goal_id", "name", "value", "check", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["goal_id", 1], ["name", "stretch"], ["value", "스트레칭하기"], ["check", "false"], ["created_at", "2019-11-16 08:44:44.616832"], ["updated_at", "2019-11-16 08:44:44.616832"]]
+  ↳ db/seeds.rb:14
+  [1m[35m (13.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[36mHabit Create (1.0ms)[0m  [1m[32mINSERT INTO "habits" ("goal_id", "name", "value", "check", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["goal_id", 2], ["name", "shower"], ["value", "샤워하기"], ["check", "false"], ["created_at", "2019-11-16 08:44:44.633532"], ["updated_at", "2019-11-16 08:44:44.633532"]]
+  ↳ db/seeds.rb:14
+  [1m[35m (8.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:14
+Started GET "/homes/show2?healthy=on&clean=on" for 121.134.206.100 at 2019-11-16 08:45:03 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on", "clean"=>"on"}
+  [1m[36mGoal Load (0.2ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:19
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[36mGoal Update (0.9ms)[0m  [1m[33mUPDATE "goals" SET "check" = ?, "updated_at" = ? WHERE "goals"."id" = ?[0m  [["check", "true"], ["updated_at", "2019-11-16 08:45:03.891417"], ["id", 1]]
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[35m (12.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "clean"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:26
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:28
+  [1m[36mGoal Update (0.7ms)[0m  [1m[33mUPDATE "goals" SET "check" = ?, "updated_at" = ? WHERE "goals"."id" = ?[0m  [["check", "true"], ["updated_at", "2019-11-16 08:45:03.912975"], ["id", 2]]
+  ↳ app/controllers/homes_controller.rb:28
+  [1m[35m (13.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:28
+  [1m[36mHabit Load (0.2ms)[0m  [1m[34mSELECT  "habits".* FROM "habits" WHERE "habits"."goal_id" = ? LIMIT ?[0m  [["goal_id", 1], ["LIMIT", 11]]
+  ↳ /home/ubuntu/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+Completed 500 Internal Server Error in 72ms (ActiveRecord: 28.7ms)
+
+
+  
+  [1m[36mCACHE Habit Load (0.0ms)[0m  [1m[34mSELECT  "habits".* FROM "habits" WHERE "habits"."goal_id" = ? LIMIT ?[0m  [["goal_id", 1], ["LIMIT", 11]]
+  ↳ /home/ubuntu/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+NoMethodError (undefined method `[]=' for #<Habit::ActiveRecord_Relation:0x0000563d81e7b458>
+Did you mean?  []):
+  
+app/controllers/homes_controller.rb:29:in `show2'
+Started GET "/homes/show2?healthy=on" for 121.134.206.100 at 2019-11-16 08:45:08 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on"}
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:19
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  Rendering homes/show2.html.erb within layouts/application
+  [1m[36mHabit Load (0.1ms)[0m  [1m[34mSELECT "habits".* FROM "habits" WHERE "habits"."goal_id" = ?[0m  [["goal_id", 1]]
+  ↳ app/views/homes/show2.html.erb:21
+  Rendered homes/show2.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 443ms (Views: 436.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/homes/show3?apple=on&water=on" for 121.134.206.100 at 2019-11-16 08:45:11 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show3 as HTML
+  Parameters: {"apple"=>"on", "water"=>"on"}
+  Rendering homes/show3.html.erb within layouts/application
+  Rendered homes/show3.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 16ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes/show2?clean=on" for 121.134.206.100 at 2019-11-16 08:45:44 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"clean"=>"on"}
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "clean"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:26
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:28
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:28
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.2ms)
+
+
+  
+NoMethodError (undefined method `[]=' for nil:NilClass):
+  
+app/controllers/homes_controller.rb:29:in `show2'
+Started GET "/homes/show2?healthy=on" for 121.134.206.100 at 2019-11-16 08:50:16 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on"}
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:19
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  Rendering homes/show2.html.erb within layouts/application
+  [1m[36mHabit Load (0.1ms)[0m  [1m[34mSELECT "habits".* FROM "habits" WHERE "habits"."goal_id" = ?[0m  [["goal_id", 1]]
+  ↳ app/views/homes/show2.html.erb:21
+  Rendered homes/show2.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 41ms (Views: 16.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/homes/show3?apple=on&water=on&stretch=on" for 121.134.206.100 at 2019-11-16 08:50:36 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show3 as HTML
+  Parameters: {"apple"=>"on", "water"=>"on", "stretch"=>"on"}
+  Rendering homes/show3.html.erb within layouts/application
+  Rendered homes/show3.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homes/show3?apple=on&water=on&stretch=on" for 121.134.206.100 at 2019-11-16 08:50:44 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show3 as HTML
+  Parameters: {"apple"=>"on", "water"=>"on", "stretch"=>"on"}
+  Rendering homes/show3.html.erb within layouts/application
+  Rendered homes/show3.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 121.134.206.100 at 2019-11-16 08:56:53 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT "goals".* FROM "goals"[0m
+  ↳ app/views/homes/index.html.erb:27
+  Rendered homes/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 23ms (Views: 20.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/homes/show2?healthy=on&clean=on" for 121.134.206.100 at 2019-11-16 08:56:58 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on", "clean"=>"on"}
+  [1m[36mGoal Load (0.2ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:19
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "clean"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:26
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:28
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:28
+  Rendering homes/show2.html.erb within layouts/application
+  [1m[36mHabit Load (0.1ms)[0m  [1m[34mSELECT  "habits".* FROM "habits" WHERE "habits"."goal_id" = ? LIMIT ?[0m  [["goal_id", 1], ["LIMIT", 11]]
+  ↳ /home/ubuntu/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  Rendered homes/show2.html.erb within layouts/application (11.5ms)
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 1.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `value' for #<Habit::ActiveRecord_Relation:0x00007ff9ec114f98>
+Did you mean?  values):
+    19: 
+    20: <form action="/homes/show3" method="get">
+    21:     <% @result.each do |r| %>
+    22: 	<input type="checkbox" name="<%= r.name %>" /><%= r.value %><br>
+    23: 	<% end %>
+    24: 	<input type="submit" value="제출하기">
+    25: </form>
+  
+app/views/homes/show2.html.erb:22:in `block in _app_views_homes_show__html_erb___2004969418799118240_70355692121480'
+app/views/homes/show2.html.erb:21:in `each'
+app/views/homes/show2.html.erb:21:in `_app_views_homes_show__html_erb___2004969418799118240_70355692121480'
+Started GET "/homes/show2?healthy=on&clean=on" for 121.134.206.100 at 2019-11-16 08:57:23 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on", "clean"=>"on"}
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:19
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "clean"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:26
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:28
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:28
+  Rendering homes/show2.html.erb within layouts/application
+  [1m[36mHabit Load (0.1ms)[0m  [1m[34mSELECT  "habits".* FROM "habits" WHERE "habits"."goal_id" = ? LIMIT ?[0m  [["goal_id", 1], ["LIMIT", 11]]
+  ↳ /home/ubuntu/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  Rendered homes/show2.html.erb within layouts/application (4.8ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error (undefined method `value' for #<Habit::ActiveRecord_Relation:0x00007ff9dc072b90>
+Did you mean?  values):
+    19: 
+    20: <form action="/homes/show3" method="get">
+    21:     <% @result.each do |r| %>
+    22: 	<input type="checkbox" name="<%= r.name %>" /><%= r.value %><br>
+    23: 	<% end %>
+    24: 	<input type="submit" value="제출하기">
+    25: </form>
+  
+app/views/homes/show2.html.erb:22:in `block in _app_views_homes_show__html_erb___2004969418799118240_70355557579300'
+app/views/homes/show2.html.erb:21:in `each'
+app/views/homes/show2.html.erb:21:in `_app_views_homes_show__html_erb___2004969418799118240_70355557579300'
+Started GET "/homes/show2?healthy=on&clean=on" for 121.134.206.100 at 2019-11-16 08:57:38 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on", "clean"=>"on"}
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:19
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "clean"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:26
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:28
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:28
+  Rendering homes/show2.html.erb within layouts/application
+  Rendered homes/show2.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 24ms (Views: 14.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/homes/show2?healthy=on&clean=on" for 121.134.206.100 at 2019-11-16 08:59:23 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on", "clean"=>"on"}
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:19
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[36mHabit Load (0.1ms)[0m  [1m[34mSELECT "habits".* FROM "habits" WHERE "habits"."goal_id" = ?[0m  [["goal_id", 1]]
+  ↳ app/controllers/homes_controller.rb:22
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "clean"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:26
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:28
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:28
+  [1m[36mHabit Load (0.1ms)[0m  [1m[34mSELECT "habits".* FROM "habits" WHERE "habits"."goal_id" = ?[0m  [["goal_id", 2]]
+  ↳ app/controllers/homes_controller.rb:29
+  Rendering homes/show2.html.erb within layouts/application
+  Rendered homes/show2.html.erb within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 44ms (ActiveRecord: 1.7ms)
+
+
+  
+ActionView::Template::Error (undefined method `name' for #<Array:0x00007ff9e52665d8>):
+    19: 
+    20: <form action="/homes/show3" method="get">
+    21:     <% @result.each do |r| %>
+    22: 	<input type="checkbox" name="<%= r.name %>" /><%= r %><br>
+    23: 	<% end %>
+    24: 	<input type="submit" value="제출하기">
+    25: </form>
+  
+app/views/homes/show2.html.erb:22:in `block in _app_views_homes_show__html_erb___2004969418799118240_70355634226340'
+app/views/homes/show2.html.erb:21:in `each'
+app/views/homes/show2.html.erb:21:in `_app_views_homes_show__html_erb___2004969418799118240_70355634226340'
+Started GET "/homes/show2?healthy=on&clean=on" for 121.134.206.100 at 2019-11-16 09:00:00 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on", "clean"=>"on"}
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:19
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "clean"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:26
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:28
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:28
+  Rendering homes/show2.html.erb within layouts/application
+  Rendered homes/show2.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 30ms (Views: 13.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/homes/show2?healthy=on&clean=on" for 121.134.206.100 at 2019-11-16 09:00:11 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on", "clean"=>"on"}
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:19
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "clean"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:26
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:28
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:28
+  Rendering homes/show2.html.erb within layouts/application
+  Rendered homes/show2.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 23ms (Views: 14.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/homes/show2?healthy=on&clean=on" for 121.134.206.100 at 2019-11-16 09:00:41 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on", "clean"=>"on"}
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:19
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[36mHabit Load (0.1ms)[0m  [1m[34mSELECT "habits".* FROM "habits" WHERE "habits"."goal_id" = ?[0m  [["goal_id", 1]]
+  ↳ app/controllers/homes_controller.rb:22
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "clean"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:26
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:28
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:28
+  [1m[36mHabit Load (0.1ms)[0m  [1m[34mSELECT "habits".* FROM "habits" WHERE "habits"."goal_id" = ?[0m  [["goal_id", 2]]
+  ↳ app/controllers/homes_controller.rb:29
+  Rendering homes/show2.html.erb within layouts/application
+  Rendered homes/show2.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 39ms (ActiveRecord: 1.6ms)
+
+
+  
+ActionView::Template::Error (no implicit conversion of String into Integer):
+    19: 
+    20: <form action="/homes/show3" method="get">
+    21:     <% @result.each do |r| %>
+    22: 	<input type="checkbox" name="<%= r['name'] %>" /><%= r['value'] %><br>
+    23: 	<% end %>
+    24: 	<input type="submit" value="제출하기">
+    25: </form>
+  
+app/views/homes/show2.html.erb:22:in `[]'
+app/views/homes/show2.html.erb:22:in `block in _app_views_homes_show__html_erb___2004969418799118240_47411093175340'
+app/views/homes/show2.html.erb:21:in `each'
+app/views/homes/show2.html.erb:21:in `_app_views_homes_show__html_erb___2004969418799118240_47411093175340'
+Started GET "/homes/show2?healthy=on&clean=on" for 121.134.206.100 at 2019-11-16 09:03:43 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on", "clean"=>"on"}
+  [1m[36mGoal Load (0.2ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:19
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "clean"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:26
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:28
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:28
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 1.1ms)
+
+
+  
+NoMethodError (undefined method `push' for nil:NilClass):
+  
+app/controllers/homes_controller.rb:32:in `show2'
+Started GET "/" for 121.134.206.100 at 2019-11-16 09:03:58 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT "goals".* FROM "goals"[0m
+  ↳ app/views/homes/index.html.erb:27
+  Rendered homes/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 29ms (Views: 26.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/homes/show2?healthy=on&clean=on" for 121.134.206.100 at 2019-11-16 09:04:03 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on", "clean"=>"on"}
+  [1m[36mGoal Load (0.2ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:19
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "clean"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:26
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:28
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:28
+  Rendering homes/show2.html.erb within layouts/application
+  [1m[36mHabit Load (0.1ms)[0m  [1m[34mSELECT "habits".* FROM "habits" WHERE (goal_id = 1 OR goal_id = 2)[0m
+  ↳ app/views/homes/show2.html.erb:21
+  Rendered homes/show2.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 30ms (Views: 20.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/homes/show2?healthy=on&clean=on" for 121.134.206.100 at 2019-11-16 09:08:06 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on", "clean"=>"on"}
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:23
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:23
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "clean"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:28
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:30
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:30
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 1.3ms)
+
+
+  
+TypeError (no implicit conversion of Integer into String):
+  
+app/controllers/homes_controller.rb:34:in `+'
+app/controllers/homes_controller.rb:34:in `show2'
+Started GET "/homes/show2?healthy=on&clean=on" for 121.134.206.100 at 2019-11-16 09:08:21 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on", "clean"=>"on"}
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:23
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:23
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "clean"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:28
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:30
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:30
+  Rendering homes/show2.html.erb within layouts/application
+  [1m[36mHabit Load (0.2ms)[0m  [1m[34mSELECT "habits".* FROM "habits" WHERE (goal_id = 1 OR goal_id = 1 OR goal_id = 2)[0m
+  ↳ app/views/homes/show2.html.erb:21
+  Rendered homes/show2.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 45ms (Views: 21.1ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/homes/show2?healthy=on&clean=on" for 121.134.206.100 at 2019-11-16 09:09:28 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on", "clean"=>"on"}
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:23
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:23
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "clean"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:28
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:30
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:30
+  Rendering homes/show2.html.erb within layouts/application
+  [1m[36mHabit Load (0.2ms)[0m  [1m[34mSELECT "habits".* FROM "habits" WHERE (goal_id = 1 OR goal_id = 1 OR goal_id = 2)[0m
+  ↳ app/views/homes/show2.html.erb:21
+  Rendered homes/show2.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 43ms (Views: 22.1ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/homes/show2?healthy=on&clean=on" for 121.134.206.100 at 2019-11-16 09:11:42 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on", "clean"=>"on"}
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:19
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "clean"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:26
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:28
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:28
+  Rendering homes/show2.html.erb within layouts/application
+  [1m[36mHabit Load (0.2ms)[0m  [1m[34mSELECT "habits".* FROM "habits" WHERE "habits"."goal_id" = ?[0m  [["goal_id", 1]]
+  ↳ app/views/homes/show2.html.erb:22
+  [1m[36mHabit Load (0.1ms)[0m  [1m[34mSELECT "habits".* FROM "habits" WHERE "habits"."goal_id" = ?[0m  [["goal_id", 2]]
+  ↳ app/views/homes/show2.html.erb:22
+  Rendered homes/show2.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 39ms (Views: 21.4ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/homes/show2?healthy=on&clean=on" for 121.134.206.100 at 2019-11-16 09:12:27 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on", "clean"=>"on"}
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:19
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 1.1ms)
+
+
+  
+NoMethodError (undefined method `push' for nil:NilClass):
+  
+app/controllers/homes_controller.rb:22:in `show2'
+Started GET "/homes/show2?healthy=on&clean=on" for 121.134.206.100 at 2019-11-16 09:12:36 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on", "clean"=>"on"}
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:19
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "clean"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:26
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:28
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:28
+  Rendering homes/show2.html.erb within layouts/application
+  [1m[36mHabit Load (0.1ms)[0m  [1m[34mSELECT "habits".* FROM "habits" WHERE "habits"."goal_id" = ?[0m  [["goal_id", 1]]
+  ↳ app/views/homes/show2.html.erb:22
+  [1m[36mHabit Load (0.1ms)[0m  [1m[34mSELECT "habits".* FROM "habits" WHERE "habits"."goal_id" = ?[0m  [["goal_id", 2]]
+  ↳ app/views/homes/show2.html.erb:22
+  Rendered homes/show2.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 39ms (Views: 21.5ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/homes/show2?healthy=on" for 121.134.206.100 at 2019-11-16 09:12:46 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on"}
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:19
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  Rendering homes/show2.html.erb within layouts/application
+  [1m[36mHabit Load (0.1ms)[0m  [1m[34mSELECT "habits".* FROM "habits" WHERE "habits"."goal_id" = ?[0m  [["goal_id", 1]]
+  ↳ app/views/homes/show2.html.erb:22
+  Rendered homes/show2.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 21ms (Views: 15.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/homes/show2?clean=on" for 121.134.206.100 at 2019-11-16 09:12:54 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"clean"=>"on"}
+  [1m[36mGoal Load (0.2ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "clean"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:26
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:28
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:28
+  Rendering homes/show2.html.erb within layouts/application
+  [1m[36mHabit Load (0.1ms)[0m  [1m[34mSELECT "habits".* FROM "habits" WHERE "habits"."goal_id" = ?[0m  [["goal_id", 2]]
+  ↳ app/views/homes/show2.html.erb:22
+  Rendered homes/show2.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 21ms (Views: 15.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 121.134.206.100 at 2019-11-16 09:19:52 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#index as HTML
+  Rendering homes/index.html.erb within layouts/application
+  [1m[36mGoal Load (0.2ms)[0m  [1m[34mSELECT "goals".* FROM "goals"[0m
+  ↳ app/views/homes/index.html.erb:27
+  Rendered homes/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 24ms (Views: 20.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/homes/show2?healthy=on" for 121.134.206.100 at 2019-11-16 09:19:54 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on"}
+  [1m[36mGoal Load (0.2ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 11]]
+  ↳ /home/ubuntu/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+  [1m[36mCACHE Goal Load (0.0ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 11]]
+  ↳ /home/ubuntu/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+NoMethodError (undefined method `check=' for #<Goal::ActiveRecord_Relation:0x00007ff9e53d7368>):
+  
+app/controllers/homes_controller.rb:20:in `show2'
+Started GET "/homes/show2?healthy=on" for 121.134.206.100 at 2019-11-16 09:20:17 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"healthy"=>"on"}
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "healthy"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:19
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:21
+  Rendering homes/show2.html.erb within layouts/application
+  [1m[36mHabit Load (0.2ms)[0m  [1m[34mSELECT "habits".* FROM "habits" WHERE "habits"."goal_id" = ?[0m  [["goal_id", 1]]
+  ↳ app/views/homes/show2.html.erb:22
+  Rendered homes/show2.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 43ms (Views: 23.8ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/homes/show2?clean=on" for 121.134.206.100 at 2019-11-16 09:20:21 +0000
+Cannot render console from 121.134.206.100! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#show2 as HTML
+  Parameters: {"clean"=>"on"}
+  [1m[36mGoal Load (0.1ms)[0m  [1m[34mSELECT  "goals".* FROM "goals" WHERE "goals"."name" = ? LIMIT ?[0m  [["name", "clean"], ["LIMIT", 1]]
+  ↳ app/controllers/homes_controller.rb:26
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/homes_controller.rb:28
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/homes_controller.rb:28
+  Rendering homes/show2.html.erb within layouts/application
+  [1m[36mHabit Load (0.1ms)[0m  [1m[34mSELECT "habits".* FROM "habits" WHERE "habits"."goal_id" = ?[0m  [["goal_id", 2]]
+  ↳ app/views/homes/show2.html.erb:22
+  Rendered homes/show2.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 21ms (Views: 15.6ms | ActiveRecord: 0.3ms)
+
+

@@ -1,0 +1,27 @@
+<form action="/homes/show3" method="get">
+
+<% if @healthy != nil %>
+	<input type="checkbox" name="apple"  />사과 한 개 먹기<br>
+	<input type="checkbox" name="water"  />물 한 잔 마시기<br>
+	<input type="checkbox" name="pill"  />영양제 섭취하기<br>
+<% end %>
+
+<% if @clean != nil %>
+	<input type="checkbox" name="bed"  />잠자리 정리하기<br>
+	<input type="checkbox" name="vent"  />10분 환기시키기<br>
+	<input type="checkbox" name="shower"  />샤워하기<br>
+<% end %>
+	
+	<input type="submit" value="제출하기">
+
+</form>
+
+
+<form action="/homes/show3" method="get">
+    <% @result.each do |r| %>
+    	<% r.each do |i| %>
+		<input type="checkbox" name="<%= i.name %>" /><%= i.value %><br>
+	<% end %>
+	<% end %>
+	<input type="submit" value="제출하기">
+</form>

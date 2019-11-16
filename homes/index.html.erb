@@ -1,0 +1,33 @@
+
+<div class="box-container">
+    <div class="_box">
+            <div class="padding">
+                    <h1>나는 ___________ 한 사람입니다.</h1>
+            </div>       
+        </div>          
+    </div>
+
+
+
+<div class="box-container">
+   <select onchange="if(this.value) location.href=(this.value);" class="form-control form-control-lg" method="get"> 
+           <option>선택</option> 
+           <option value="/homes/show">건강한</option>
+           <option value="/homes/show">열정적인</option>
+           <option value="/homes/show">아름다운</option>
+           <option value="/homes/show">행복한</option>
+     </select><br>
+</div>
+
+    
+<hr>
+
+
+<form action="/homes/show2" method="get">
+    <% @goal.each do |g| %>
+	<input type="checkbox" name="<%= g.name %>" /><%= g.value %><br>
+	<% end %>
+	<input type="submit" value="제출하기">
+</form>
+
+
